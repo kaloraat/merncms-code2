@@ -1,0 +1,16 @@
+.active {
+  color: #1890ff !important;
+  text-decoration: underline;
+}
+.ProseMirror {
+  height: 500px;
+  padding: 15px 25px;
+  overflow: scroll;
+}
+.editor-scroll ::-webkit-scrollbar {
+  display: none;
+}
+.editor-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
